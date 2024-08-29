@@ -1,0 +1,17 @@
+Blockly.Msg.TSL2591_GET_LUX_TITLE = "TSL2591 Illuminance in Lux";
+Blockly.Msg.TSL2591_GET_LUX_TOOLTIP = "Read TSL2591 Illuminance in Lux";
+Blockly.Msg.TSL2591_GET_LUX_HELPURL = "";
+
+Blockly.Msg.GAIN = "Gain";
+Blockly.Msg.TSL2591_GAIN_LOW = "LOW";
+Blockly.Msg.TSL2591_GAIN_MED = "MED";
+Blockly.Msg.TSL2591_GAIN_HIGH = "HIGH";
+Blockly.Msg.TSL2591_GAIN_MAX = "MAX";
+
+Blockly.Msg.TIME = "TIME";
+Blockly.Msg.TSL2591_TIME_100MS = "100MS";
+Blockly.Msg.TSL2591_TIME_200MS = "200MS";
+Blockly.Msg.TSL2591_TIME_300MS = "300MS";
+Blockly.Msg.TSL2591_TIME_400MS = "400MS";
+Blockly.Msg.TSL2591_TIME_500MS = "500MS";
+Blockly.Msg.TSL2591_TIME_600MS = "600MS";

@@ -1,0 +1,14 @@
+{
+	"name": {
+		"en": "ESP-NOW",
+		"th": "ESP-NOW"
+	},
+	"color": 60,
+	"title": "ESP-NOW",
+	"author": "Sonthaya Nongnuch",
+	"description": "รับ-ส่งข้อมูลระหว่างบอร์ด KidBright ด้วย ESP-NOW",
+	"git": "https://github.com/kidbright-plugins-by-kidstore/esp_now",
+	"image" : "https://store.kidbright.info/upload/cover-image/1565963104-nLyoHV.png",
+	"board": "kidbright",
+	"version": "1.0"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "espnow",
+  "title" : "ESP-NOW",
+  "keywords": "ESP-NOW",
+  "description": "รับ-ส่งข้อมูลระหว่างบอร์ด KidBright ด้วย ESP-NOW",
+  "homepage": "https://store.kidbright.info/plugin/18/ESP-NOW",
+  "license": "MIT",
+  "git": "https://github.com/kidbright-plugins-by-kidstore/esp_now",
+  "author": "Sonthaya Nongnuch",
+  "email": "max30012540@hotmail.com",
+  "url": "https://store.kidbright.info/plugin/18/ESP-NOW",
+  "version": "1.0",
+  "board" : "kidbright",
+  "platform": [],
+  "image" : "https://store.kidbright.info/upload/cover-image/1565963104-nLyoHV.png"
+}

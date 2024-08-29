@@ -1,0 +1,31 @@
+Blockly.Msg.BASIC_LED16X8_DOT_TITLE = "LED16X8 DOT";
+Blockly.Msg.BASIC_LED16X8_DOT_TOOLTIP = "Display selected dot on LED 16X8";
+Blockly.Msg.BASIC_LED16X8_DOT_HELPURL = "";
+
+Blockly.Msg.BASIC_LED16X8_CLR_DOT_TITLE = "Clear LED16X8";
+Blockly.Msg.BASIC_LED16X8_CLR_DOT_TOOLTIP = "Clear LED16X8";
+Blockly.Msg.BASIC_LED16X8_CLR_DOT_HELPURL = "";
+
+Blockly.Msg.LED16X8_DOT_TITLE = "LED16X8 DOT";
+Blockly.Msg.LED16X8_DOT_TOOLTIP = "LED16X8 DOT";
+Blockly.Msg.LED16X8_DOT_HELPURL = "";
+
+Blockly.Msg.TYPE = "Type";
+
+Blockly.Msg.TYPE_PLOT = "Plot";
+Blockly.Msg.TYPE_UNPLOT = "Unplot";
+Blockly.Msg.TYPE_TOGGLE = "Toggle";
+Blockly.Msg.TYPE_BAR = "Bar Graph";
+
+Blockly.Msg.LED16X8_MOVE_TITLE = "LED16X8 MOVE";
+Blockly.Msg.LED16X8_MOVE_TOOLTIP = "LED16X8 MOVE";
+Blockly.Msg.LED16X8_MOVE_HELPURL = "";
+
+Blockly.Msg.LED16X8_DOT_STACK_TITLE = "LED16X8 DOT STACK";
+Blockly.Msg.LED16X8_DOT_STACK_TOOLTIP = "LED16X8 DOT STACK";
+Blockly.Msg.LED16X8_DOT_STACK_HELPURL = "";
+
+Blockly.Msg.TYPE_ROTATE = "ROTATE";
+Blockly.Msg.TYPE_SHIFT = "SHIFT";
+Blockly.Msg.TYPE_RIGHT = "RIGHT";
+Blockly.Msg.TYPE_LEFT = "LEFT";

@@ -1,0 +1,22 @@
+Blockly.Msg.PMS7003_GET_PM2_5_TITLE = "PMS7003 PM2.5";
+Blockly.Msg.PMS7003_GET_PM2_5_TOOLTIP = "Read PMS7003 PM2.5";
+Blockly.Msg.PMS7003_GET_PM2_5_HELPURL = "";
+
+Blockly.Msg.PMS7003_GET_PM10_TITLE = "PMS7003 PM10";
+Blockly.Msg.PMS7003_GET_PM10_TOOLTIP = "Read PMS7003 PM10";
+Blockly.Msg.PMS7003_GET_PM10_HELPURL = "";
+
+Blockly.Msg.PMS7003_PM_TX = "Tx";
+Blockly.Msg.PMS7003_PM_RX = "Rx";
+
+Blockly.Msg.PMS7003_IS_ERROR_TITLE = "PMS7003 Check Error";
+Blockly.Msg.PMS7003_IS_ERROR_TOOLTIP = "Check PMS7003 error status";
+Blockly.Msg.PMS7003_IS_ERROR_HELPURL = "";
+
+Blockly.Msg.PMS7003_GET_ERROR_COUNT_TITLE = "PMS7003 Get Error Count";
+Blockly.Msg.PMS7003_GET_ERROR_COUNT_TOOLTIP = "Get number of PMS7003 error count";
+Blockly.Msg.PMS7003_GET_ERROR_COUNT_HELPURL = "";
+
+Blockly.Msg.PMS7003_GET_ERROR_CLEAR_COUNT_TITLE = "PMS7003 Get Error Clear Count";
+Blockly.Msg.PMS7003_GET_ERROR_CLEAR_COUNT_TOOLTIP = "Get number of PMS7003 error clear count";
+Blockly.Msg.PMS7003_GET_ERROR_CLEAR_COUNT_HELPURL = "";

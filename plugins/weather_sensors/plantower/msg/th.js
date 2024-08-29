@@ -1,0 +1,22 @@
+Blockly.Msg.PLANTOWER_GET_PM2_5_TITLE = "PLANTOWER PM2.5";
+Blockly.Msg.PLANTOWER_GET_PM2_5_TOOLTIP = "Read PLANTOWER PM2.5";
+Blockly.Msg.PLANTOWER_GET_PM2_5_HELPURL = "";
+
+Blockly.Msg.PLANTOWER_GET_PM10_TITLE = "PLANTOWER PM10";
+Blockly.Msg.PLANTOWER_GET_PM10_TOOLTIP = "Read PLANTOWER PM10";
+Blockly.Msg.PLANTOWER_GET_PM10_HELPURL = "";
+
+Blockly.Msg.PLANTOWER_PM_TX = "Tx";
+Blockly.Msg.PLANTOWER_PM_RX = "Rx";
+
+Blockly.Msg.PLANTOWER_IS_ERROR_TITLE = "การทำงานผิดพลาดของ PLANTOWER";
+Blockly.Msg.PLANTOWER_IS_ERROR_TOOLTIP = "อ่านการทำงานผิดพลาดของ PLANTOWER";
+Blockly.Msg.PLANTOWER_IS_ERROR_HELPURL = "";
+
+Blockly.Msg.PLANTOWER_GET_ERROR_COUNT_TITLE = "จำนวนครั้งการทำงานผิดพลาดของ PLANTOWER";
+Blockly.Msg.PLANTOWER_GET_ERROR_COUNT_TOOLTIP = "อ่านค่าจำนวนครั้งการทำงานผิดพลาดของ PLANTOWER";
+Blockly.Msg.PLANTOWER_GET_ERROR_COUNT_HELPURL = "";
+
+Blockly.Msg.PLANTOWER_GET_ERROR_CLEAR_COUNT_TITLE = "จำนวนครั้งการแก้ไขความผิดพลาดของ PLANTOWER";
+Blockly.Msg.PLANTOWER_GET_ERROR_CLEAR_COUNT_TOOLTIP = "อ่านค่าจำนวนครั้งการแก้ไขความผิดพลาดของ PLANTOWER";
+Blockly.Msg.PLANTOWER_GET_ERROR_CLEAR_COUNT_HELPURL = "";

@@ -1,0 +1,112 @@
+extends layout
+
+block content
+	nav.navbar-default(style="padding-left:0px;").header
+		.container-fluid(style="margin:0vh 1vw 0vh 1vw;")
+			ul.nav.navbar-nav
+				img(src="/images/SVG/Logo.svg", height="60").kb_logo_top
+			ul.nav.navbar-nav.navbar-right
+				li
+					.divtog
+						input#toggle-lang.toggle(type='checkbox' checked=false)
+				//- li
+				//- 	.lang-container
+				//- 		.lang-text
+				//- 			a#home-lang-en(href="#",title="Switch to english language").link-url Eng
+				//- 		.lang-space.link-url
+				//- 			| |
+				//- 		.lang-text
+				//- 			a#home-lang-th(href="#",title="สลับไปใช้ภาษาไทย").link-url ไทย
+				li(style="padding-left: 10px")
+					.lang-container
+						.lang-text(style="color: #fff")#version-text
+							| version
+
+			ul.nav.navbar-nav.navbar-right(style="padding-right:1%")
+
+				li
+					button#btn-new.navbar-btn.btn-icon(style="background-image: url(/images/SVG/new-file.svg)")
+				li
+					button#btn-open.navbar-btn.btn-icon(style="background-image: url(/images/SVG/h3.svg)")
+				li
+					a#btn-save.navbar-btn.btn-icon(style="background-image: url(/images/SVG/save-file.svg); margin-right:25px;" href="javascript:void(0)" download="data.txt")
+				//- li
+					//- button#btn-delete.navbar-btn.btn-icon(style="background-image: url(/images/SVG/h2.svg); margin-right:25px;") Delete File
+				li
+					button#btn-build.navbar-btn.btn-icon(disabled="true" style="background-image: url(/images/SVG/h1.svg)") Program Build
+				li
+					button#btn-setclock.setclock-btn.navbar-btn.btn-icon(disabled="true" style="background-image: url(/images/SVG/h6.svg)") Set Clock
+				li
+					button#btn-wifi-config.navbar-btn.btn-icon(style="background-image: url(/images/SVG/h5.svg); margin-left:15px;") WIFI Configss
+				li
+					button#btn-qrcode.btn.navbar-btn.btn-icon(style="background-image: url(/images/SVG/h7.svg)") QRsss Codes
+
+				//- li
+				//- 	#accordionExample.accordion
+				//- 		div
+				//- 			button.navbar-btn.btn-icon(data-target='#collapseOne', data-toggle='collapse', type='button', aria-controls='collapseOne', aria-expanded='true', style="background-image: url(/images/SVG/export.svg)")
+				//- 			#collapseOne.collapse(data-parent='#accordionExample', aria-labelledby='headingOne')
+				//- 				div(style="background-color:#0000;")
+				//- 					button.btn-success(style='display:flex; border-radius: 5px; margin-top: 5px; ')
+				//- 						| export
+				//- 					button.btn-success(style='display: flex; border-radius: 5px; margin-top: 5px;')
+				//- 						| import
+
+
+
+	// blockly category language
+	- if (ulang == 'th')
+		include blockly-th
+	- else
+		include blockly
+
+	include modals/alert
+	include modals/confirm
+	include modals/prompt
+	include modals/build
+	include modals/save-file-browser
+	include modals/save-overwrite-confirm
+	include modals/open-file-browser
+	include modals/delete-file-browser
+	include modals/delete-confirm
+	include modals/set-clock
+	include modals/setting-clock
+	include modals/wifi-config
+	include modals/qrcode
+	include modals/newfile-confirm
+
+block scripts
+
+	script(src='/vendor/jquery-2.2.3.min.js')
+	script(src='/vendor/jquery.form.min.js')
+	script(src='/vendor/bootstrap.min.js')
+	script(src='/vendor/moment.js')
+	script(src='/js/views/timezone-list.js')
+	script(src='/js/views/home.js')
+	script(src='/js/controllers/homeController.js')
+	// blockly
+	script(src='blockly/blockly_compressed.js')
+	//script(src='blockly/blockly_uncompressed.js')
+	script(src='blockly/blocks_compressed.js')
+	script(src='blockly/javascript_compressed.js')
+	// blockly blocks language
+	script(src='blockly/lang.js')
+	script(src='blockly/kidbright/blocks.js')
+	script(src='blockly/kidbright/blocks-iot.js')
+	script(src='blockly/kidbright/blocks-math.js')
+	script(src='blockly/kidbright/blocks-mqtt.js')
+	script(src='blockly/kidbright/blocks-string.js')
+	script(src='blockly/kidbright/blocks-array.js')
+	script(src='blockly/kidbright/blocks-function.js')
+	script(src='blockly/kidbright/blocks-netpie.js')
+	script(src='blockly/kidbright/generators.js')
+	script(src='blockly/kidbright/generators-iot.js')
+	script(src='blockly/kidbright/generators-netpie.js')
+	script(src='blockly/kidbright/generators-math.js')
+	script(src='blockly/kidbright/generators-mqtt.js')
+	script(src='blockly/kidbright/generators-string.js')
+	script(src='blockly/kidbright/generators-array.js')
+	script(src='blockly/kidbright/generators-function.js')
+	script(src='plugins.js')
+	script(src='blockly/kidbright/app.js')
+	srcipt(src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/14082/FileSaver.js")
